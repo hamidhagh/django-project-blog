@@ -40,7 +40,7 @@
 {% block content-right %}
 {% sidebar_tag_cloud %}
 
-<div class="col-12">
+<div class="border-bottom mb-4 col-12">
     <div class="pb-3">More from {{post.author}}</div>
     {% for post in related %}
     <a class="text-decoration-none" href="{{post.get_absolute_url}}">
